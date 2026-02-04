@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Rutino Mio</title>
+    <style>
+        :root {
+            --bg-color: #181B25;
+            --text-color: #E0E0E0;
+            --accent-color: #00D9FF;
+            --heading-color: #FFFFFF;
+            --link-color: #00D9FF;
+            --border-color: #2A2D3A;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.4rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        .lang-switch { text-align: right; margin-bottom: 20px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+        .lang-switch a { padding: 6px 12px; border: 1px solid var(--border-color); border-radius: 5px; font-size: 0.85rem; }
+        .lang-switch a.active { border-color: var(--accent-color); background: rgba(0,217,255,0.1); }
+        .contact {
+            background: var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="index.html">PL</a>
+            <a href="privacy-en.html">EN</a>
+            <a href="privacy-it.html">IT</a>
+            <a href="privacy-fr.html">FR</a>
+            <a href="privacy-de.html">DE</a>
+            <a href="privacy-es.html">ES</a>
+            <a href="privacy-pt.html" class="active">PT</a>
+        </div>
+
+        <h1>Política de Privacidade - Rutino Mio</h1>
+        <p class="date">Data da última atualização: 2026-02-04</p>
+
+        <h2>1. Responsável pelo tratamento de dados</h2>
+        <p>O responsável pelo tratamento de dados é Gregorio Visocchi Labs.<br>
+        Contacto: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a></p>
+
+        <h2>2. Âmbito e natureza da aplicação</h2>
+        <p>Rutino Mio é uma aplicação para acompanhamento de rotinas diárias e hábitos.
+        A aplicação não requer conta e não realiza registo de utilizadores.</p>
+
+        <h2>3. Que dados processamos</h2>
+
+        <h3>3.1 Dados armazenados localmente (no dispositivo)</h3>
+        <ul>
+            <li>nomes de rotinas, horários e categorias,</li>
+            <li>estado de conclusão das rotinas,</li>
+            <li>preferências do utilizador (idioma, tema, configurações de notificações, consentimento de anúncios).</li>
+        </ul>
+        <p>Estes dados são armazenados localmente na base de dados SQLite e em SharedPreferences e não são sincronizados com a nuvem.</p>
+
+        <h3>3.2 Notificações locais</h3>
+        <p>A aplicação programa notificações locais para lembrar as rotinas.
+        As notificações são geridas exclusivamente no dispositivo e não requerem nenhum serviço externo.</p>
+
+        <h3>3.3 Exportação e importação de dados</h3>
+        <p>A aplicação permite exportar e importar dados de rotinas como ficheiro JSON.
+        O ficheiro é armazenado localmente no dispositivo. Não temos acesso a ele.</p>
+
+        <h3>3.4 Anúncios - Google AdMob</h3>
+        <p>A aplicação utiliza o SDK do Google AdMob. No âmbito da exibição de anúncios, o Google pode processar, entre outros:</p>
+        <ul>
+            <li>identificador de publicidade do dispositivo,</li>
+            <li>endereço IP,</li>
+            <li>dados do dispositivo e do sistema operativo,</li>
+            <li>informações sobre a interação com os anúncios.</li>
+        </ul>
+        <p>Detalhes: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>4. Finalidades e bases legais do tratamento (RGPD)</h2>
+        <ul>
+            <li><strong>Prestação do serviço</strong> (art. 6.1.b do RGPD): dados locais necessários para o funcionamento das funcionalidades da aplicação.</li>
+            <li><strong>Consentimento</strong> (art. 6.1.a do RGPD): no âmbito dos anúncios personalizados, se ativados conforme as configurações e os consentimentos do utilizador.</li>
+            <li><strong>Interesse legítimo</strong> (art. 6.1.f do RGPD): exibição de anúncios não personalizados e manutenção do financiamento da aplicação.</li>
+        </ul>
+
+        <h2>5. Partilha de dados</h2>
+        <p>Não vendemos nem partilhamos dados pessoais com terceiros.
+        A exceção são os dados processados pelo Google no âmbito do Google AdMob.</p>
+
+        <h2>6. Transferência de dados para fora do EEE</h2>
+        <p>O Google pode processar dados fora do Espaço Económico Europeu.
+        As transferências são realizadas conforme os mecanismos exigidos por lei;
+        os detalhes estão disponíveis na política de privacidade do Google.</p>
+
+        <h2>7. Período de conservação</h2>
+        <ul>
+            <li>Os dados locais são conservados até serem eliminados pelo utilizador ou a aplicação ser desinstalada.</li>
+            <li>Os dados publicitários são conservados conforme as políticas do Google.</li>
+        </ul>
+
+        <h2>8. Direitos dos utilizadores</h2>
+        <p>O utilizador tem direito a:</p>
+        <ul>
+            <li>aceder aos seus dados,</li>
+            <li>retificar os seus dados,</li>
+            <li>apagar os seus dados,</li>
+            <li>limitar o tratamento,</li>
+            <li>portabilidade dos dados (no âmbito dos dados locais),</li>
+            <li>oposição,</li>
+            <li>retirar o consentimento (sem afetar a licitude do tratamento anterior à retirada).</li>
+        </ul>
+        <p>Tem também o direito de apresentar uma reclamação junto da Comissão Nacional de Proteção de Dados (CNPD).</p>
+
+        <h2>9. Segurança</h2>
+        <p>Os dados do utilizador são armazenados localmente no dispositivo. A aplicação não transmite dados do utilizador para os nossos servidores.
+        Os dados podem ser transmitidos apenas para os serviços do Google no âmbito da publicidade (AdMob),
+        se o utilizador os utilizar.</p>
+
+        <h2>10. Crianças</h2>
+        <p>A aplicação não é dirigida a crianças menores de 13 anos.
+        Se é pai/responsável legal e acredita que uma criança forneceu dados, entre em contacto connosco.</p>
+
+        <h2>11. Alterações à política</h2>
+        <p>As alterações à política serão publicadas neste documento através da atualização da data.</p>
+
+        <div class="contact">
+            <h3>Contacto</h3>
+            <p>E-mail: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a><br>
+            Programador: Gregorio Visocchi Labs</p>
+        </div>
+    </div>
+</body>
+</html>

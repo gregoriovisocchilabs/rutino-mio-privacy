@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informativa sulla Privacy - Rutino Mio</title>
+    <style>
+        :root {
+            --bg-color: #181B25;
+            --text-color: #E0E0E0;
+            --accent-color: #00D9FF;
+            --heading-color: #FFFFFF;
+            --link-color: #00D9FF;
+            --border-color: #2A2D3A;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.4rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        .lang-switch { text-align: right; margin-bottom: 20px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+        .lang-switch a { padding: 6px 12px; border: 1px solid var(--border-color); border-radius: 5px; font-size: 0.85rem; }
+        .lang-switch a.active { border-color: var(--accent-color); background: rgba(0,217,255,0.1); }
+        .contact {
+            background: var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="index.html">PL</a>
+            <a href="privacy-en.html">EN</a>
+            <a href="privacy-it.html" class="active">IT</a>
+            <a href="privacy-fr.html">FR</a>
+            <a href="privacy-de.html">DE</a>
+            <a href="privacy-es.html">ES</a>
+            <a href="privacy-pt.html">PT</a>
+        </div>
+
+        <h1>Informativa sulla Privacy - Rutino Mio</h1>
+        <p class="date">Ultimo aggiornamento: 2026-02-04</p>
+
+        <h2>1. Titolare del trattamento</h2>
+        <p>Il titolare del trattamento dei dati è Gregorio Visocchi Labs.<br>
+        Contatto: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a></p>
+
+        <h2>2. Ambito e natura dell'applicazione</h2>
+        <p>Rutino Mio è un'applicazione per il monitoraggio delle routine quotidiane e delle abitudini.
+        L'applicazione non richiede un account e non prevede la registrazione degli utenti.</p>
+
+        <h2>3. Quali dati trattiamo</h2>
+
+        <h3>3.1 Dati memorizzati localmente (sul dispositivo)</h3>
+        <ul>
+            <li>nomi delle routine, pianificazioni e categorie,</li>
+            <li>stato di completamento delle routine,</li>
+            <li>preferenze dell'utente (lingua, tema, impostazioni delle notifiche, consenso alla pubblicità).</li>
+        </ul>
+        <p>Questi dati sono memorizzati localmente in SQLite e SharedPreferences e non vengono sincronizzati con il cloud.</p>
+
+        <h3>3.2 Notifiche locali</h3>
+        <p>L'applicazione pianifica notifiche locali per ricordare le routine.
+        Le notifiche vengono gestite interamente sul dispositivo e non richiedono alcun servizio esterno.</p>
+
+        <h3>3.3 Esportazione e importazione dei dati</h3>
+        <p>L'applicazione consente di esportare e importare i dati delle routine come file JSON.
+        Il file viene memorizzato localmente sul dispositivo. Non abbiamo accesso ad esso.</p>
+
+        <h3>3.4 Pubblicità - Google AdMob</h3>
+        <p>L'applicazione utilizza l'SDK di Google AdMob. In relazione alla visualizzazione degli annunci, Google può trattare, tra l'altro:</p>
+        <ul>
+            <li>l'identificatore pubblicitario del dispositivo,</li>
+            <li>l'indirizzo IP,</li>
+            <li>informazioni sul dispositivo e sul sistema operativo,</li>
+            <li>dati sull'interazione con gli annunci.</li>
+        </ul>
+        <p>Dettagli: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>4. Finalità e basi giuridiche del trattamento (GDPR)</h2>
+        <ul>
+            <li><strong>Erogazione del servizio</strong> (art. 6, par. 1, lett. b GDPR): dati locali necessari per il funzionamento delle funzionalità dell'applicazione.</li>
+            <li><strong>Consenso</strong> (art. 6, par. 1, lett. a GDPR): per la pubblicità personalizzata, se abilitata secondo le impostazioni e il consenso dell'utente.</li>
+            <li><strong>Interesse legittimo</strong> (art. 6, par. 1, lett. f GDPR): visualizzazione di annunci non personalizzati e mantenimento del finanziamento dell'applicazione.</li>
+        </ul>
+
+        <h2>5. Condivisione dei dati</h2>
+        <p>Non vendiamo né condividiamo dati personali con terze parti.
+        L'eccezione riguarda i dati trattati da Google nell'ambito di Google AdMob.</p>
+
+        <h2>6. Trasferimento dei dati al di fuori del SEE</h2>
+        <p>Google può trattare i dati al di fuori dello Spazio Economico Europeo.
+        I trasferimenti vengono effettuati in conformità con i meccanismi previsti dalla legge;
+        i dettagli sono disponibili nell'informativa sulla privacy di Google.</p>
+
+        <h2>7. Periodo di conservazione</h2>
+        <ul>
+            <li>I dati locali vengono conservati fino alla loro eliminazione da parte dell'utente o fino alla disinstallazione dell'applicazione.</li>
+            <li>I dati pubblicitari vengono conservati in conformità con le politiche di Google.</li>
+        </ul>
+
+        <h2>8. Diritti dell'utente</h2>
+        <p>Hai il diritto di:</p>
+        <ul>
+            <li>accedere ai tuoi dati,</li>
+            <li>rettificare i tuoi dati,</li>
+            <li>cancellare i tuoi dati,</li>
+            <li>limitare il trattamento,</li>
+            <li>portabilità dei dati (per quanto riguarda i dati locali),</li>
+            <li>opporti al trattamento,</li>
+            <li>revocare il consenso (senza pregiudicare la liceità del trattamento precedente alla revoca).</li>
+        </ul>
+        <p>Hai inoltre il diritto di presentare un reclamo al Garante per la protezione dei dati personali.</p>
+
+        <h2>9. Sicurezza</h2>
+        <p>I dati dell'utente vengono memorizzati localmente sul dispositivo. L'applicazione non trasmette i dati dell'utente ai nostri server.
+        I dati possono essere trasmessi esclusivamente ai servizi Google per la pubblicità (AdMob),
+        se l'utente ne fa uso.</p>
+
+        <h2>10. Minori</h2>
+        <p>L'applicazione non è destinata a minori di 13 anni.
+        Se sei un genitore/tutore e ritieni che un minore abbia fornito dei dati, contattaci.</p>
+
+        <h2>11. Modifiche all'informativa</h2>
+        <p>Le modifiche a questa informativa saranno pubblicate in questo documento mediante l'aggiornamento della data.</p>
+
+        <div class="contact">
+            <h3>Contatti</h3>
+            <p>Email: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a><br>
+            Sviluppatore: Gregorio Visocchi Labs</p>
+        </div>
+    </div>
+</body>
+</html>

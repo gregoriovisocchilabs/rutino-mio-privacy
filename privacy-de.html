@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzrichtlinie - Rutino Mio</title>
+    <style>
+        :root {
+            --bg-color: #181B25;
+            --text-color: #E0E0E0;
+            --accent-color: #00D9FF;
+            --heading-color: #FFFFFF;
+            --link-color: #00D9FF;
+            --border-color: #2A2D3A;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.4rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+        .lang-switch { text-align: right; margin-bottom: 20px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+        .lang-switch a { padding: 6px 12px; border: 1px solid var(--border-color); border-radius: 5px; font-size: 0.85rem; }
+        .lang-switch a.active { border-color: var(--accent-color); background: rgba(0,217,255,0.1); }
+        .contact {
+            background: var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="index.html">PL</a>
+            <a href="privacy-en.html">EN</a>
+            <a href="privacy-it.html">IT</a>
+            <a href="privacy-fr.html">FR</a>
+            <a href="privacy-de.html" class="active">DE</a>
+            <a href="privacy-es.html">ES</a>
+            <a href="privacy-pt.html">PT</a>
+        </div>
+
+        <h1>Datenschutzrichtlinie - Rutino Mio</h1>
+        <p class="date">Datum der letzten Aktualisierung: 2026-02-04</p>
+
+        <h2>1. Verantwortlicher</h2>
+        <p>Verantwortlicher für die Datenverarbeitung ist Gregorio Visocchi Labs.<br>
+        Kontakt: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a></p>
+
+        <h2>2. Umfang und Art der App</h2>
+        <p>Rutino Mio ist eine App zur Verfolgung täglicher Routinen und Gewohnheiten.
+        Die App erfordert kein Konto und führt keine Benutzerregistrierung durch.</p>
+
+        <h2>3. Welche Daten wir verarbeiten</h2>
+
+        <h3>3.1 Lokal gespeicherte Daten (auf dem Gerät)</h3>
+        <ul>
+            <li>Namen von Routinen, Zeitpläne und Kategorien,</li>
+            <li>Ausführungsstatus der Routinen,</li>
+            <li>Benutzereinstellungen (Sprache, Design, Benachrichtigungseinstellungen, Werbeeinwilligung).</li>
+        </ul>
+        <p>Diese Daten werden lokal in der SQLite-Datenbank und in SharedPreferences gespeichert und nicht mit der Cloud synchronisiert.</p>
+
+        <h3>3.2 Lokale Benachrichtigungen</h3>
+        <p>Die App plant lokale Benachrichtigungen, um an Routinen zu erinnern.
+        Benachrichtigungen werden ausschließlich auf dem Gerät verarbeitet und erfordern keinen externen Dienst.</p>
+
+        <h3>3.3 Datenexport und -import</h3>
+        <p>Die App ermöglicht den Export und Import von Routinedaten als JSON-Datei.
+        Die Datei wird lokal auf dem Gerät gespeichert. Wir haben keinen Zugriff darauf.</p>
+
+        <h3>3.4 Werbung - Google AdMob</h3>
+        <p>Die App verwendet das Google AdMob SDK. Im Zusammenhang mit der Anzeige von Werbung kann Google unter anderem folgende Daten verarbeiten:</p>
+        <ul>
+            <li>Werbe-ID des Geräts,</li>
+            <li>IP-Adresse,</li>
+            <li>Geräte- und Betriebssysteminformationen,</li>
+            <li>Informationen über die Interaktion mit Werbung.</li>
+        </ul>
+        <p>Details: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>4. Zwecke und Rechtsgrundlagen der Verarbeitung (DSGVO)</h2>
+        <ul>
+            <li><strong>Erbringung der Dienstleistung</strong> (Art. 6 Abs. 1 lit. b DSGVO): Lokale Daten, die für die Funktionen der App erforderlich sind.</li>
+            <li><strong>Einwilligung</strong> (Art. 6 Abs. 1 lit. a DSGVO): Im Bereich personalisierter Werbung, sofern diese gemäß den Einstellungen und Einwilligungen des Benutzers aktiviert wird.</li>
+            <li><strong>Berechtigtes Interesse</strong> (Art. 6 Abs. 1 lit. f DSGVO): Anzeige nicht personalisierter Werbung und Aufrechterhaltung der Finanzierung der App.</li>
+        </ul>
+
+        <h2>5. Weitergabe von Daten</h2>
+        <p>Wir verkaufen keine personenbezogenen Daten und geben sie nicht an Dritte weiter.
+        Ausgenommen sind Daten, die von Google im Rahmen von Google AdMob verarbeitet werden.</p>
+
+        <h2>6. Datenübermittlung außerhalb des EWR</h2>
+        <p>Google kann Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten.
+        Übermittlungen erfolgen gemäß den gesetzlich vorgeschriebenen Mechanismen;
+        Einzelheiten sind in der Datenschutzrichtlinie von Google verfügbar.</p>
+
+        <h2>7. Aufbewahrungsdauer</h2>
+        <ul>
+            <li>Lokale Daten werden aufbewahrt, bis sie vom Benutzer gelöscht oder die App deinstalliert wird.</li>
+            <li>Werbedaten werden gemäß den Richtlinien von Google aufbewahrt.</li>
+        </ul>
+
+        <h2>8. Rechte der Benutzer</h2>
+        <p>Sie haben das Recht auf:</p>
+        <ul>
+            <li>Auskunft über Ihre Daten,</li>
+            <li>Berichtigung Ihrer Daten,</li>
+            <li>Löschung Ihrer Daten,</li>
+            <li>Einschränkung der Verarbeitung,</li>
+            <li>Datenübertragbarkeit (im Bereich der lokalen Daten),</li>
+            <li>Widerspruch,</li>
+            <li>Widerruf der Einwilligung (ohne Auswirkung auf die Rechtmäßigkeit der Verarbeitung vor dem Widerruf).</li>
+        </ul>
+        <p>Sie haben außerdem das Recht, eine Beschwerde bei der zuständigen Datenschutzbehörde einzureichen.</p>
+
+        <h2>9. Sicherheit</h2>
+        <p>Die Benutzerdaten werden lokal auf dem Gerät gespeichert. Die App überträgt keine Benutzerdaten an unsere Server.
+        Daten können ausschließlich im Rahmen der Werbung (AdMob) an Google-Dienste übermittelt werden,
+        sofern der Benutzer diese nutzt.</p>
+
+        <h2>10. Kinder</h2>
+        <p>Die App richtet sich nicht an Kinder unter 13 Jahren.
+        Wenn Sie ein Elternteil/Erziehungsberechtigter sind und glauben, dass ein Kind Daten übermittelt hat, kontaktieren Sie uns bitte.</p>
+
+        <h2>11. Änderungen der Richtlinie</h2>
+        <p>Änderungen der Richtlinie werden in diesem Dokument durch Aktualisierung des Datums veröffentlicht.</p>
+
+        <div class="contact">
+            <h3>Kontakt</h3>
+            <p>E-Mail: <a href="mailto:GregorioVisocchiLabs@gmail.com">GregorioVisocchiLabs@gmail.com</a><br>
+            Entwickler: Gregorio Visocchi Labs</p>
+        </div>
+    </div>
+</body>
+</html>
